@@ -1,0 +1,36 @@
+name: Check interactive voyage
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [improve-interactive-voyage]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check JavaScript syntax
+        run: |
+          for file in dist/*.js; do node --check "$file"; done
+      - name: Check learning, voyage and offline behaviour
+        run: npm test
+      - name: Check offline asset list is reproducible
+        run: |
+          node prepare_assets.mjs --cache-only
+          git diff --exit-code -- dist/sw.js
+      - name: Install browser test tools
+        run: |
+          npm install --no-save --package-lock=false playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Test a complete session in Chromium
+        run: node tests/browser-smoke.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: engagement-browser-previews
+          path: browser-results/
