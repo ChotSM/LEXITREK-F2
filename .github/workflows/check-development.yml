@@ -1,0 +1,25 @@
+name: Check Form Two gameplay branch
+on:
+  push:
+    branches:
+      - gameplay-form2-missions
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: JavaScript syntax checks
+        run: |
+          node --check dist/app.js
+          node --check dist/engine.js
+      - name: Automated learning and offline tests
+        run: node --test tests/*.test.mjs
+      - name: Confirm app assets
+        run: |
+          test -f dist/index.html
+          test -f dist/content.json
+          test -f dist/sw.js
+          test "$(find dist/audio -name '*.mp3' | wc -l)" -eq 40
