@@ -1,6 +1,6 @@
 {
   "id": "pulse2-form1-pilot",
-  "version": "1.0.0",
+  "version": "1.1.0-artwork",
   "status": "provisional",
   "title": "Pulse 2 aligned • Form 1",
   "target": "A2 Mid Revised",
@@ -57,7 +57,9 @@
       "pos": "verb",
       "audio": "audio/u1-1.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u1-1.webp",
+      "imageAlt": "A teenager stirring vegetables in a frying pan beside his father."
     },
     {
       "id": "u1-2",
@@ -74,7 +76,9 @@
       "pos": "verb",
       "audio": "audio/u1-2.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u1-2.webp",
+      "imageAlt": "A student using a pencil to make a tree picture in a sketchbook."
     },
     {
       "id": "u1-3",
@@ -91,7 +95,9 @@
       "pos": "verb",
       "audio": "audio/u1-3.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u1-3.webp",
+      "imageAlt": "Teenage friends moving their bodies to music in a school activity room."
     },
     {
       "id": "u1-4",
@@ -108,7 +114,9 @@
       "pos": "verb",
       "audio": "audio/u1-4.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u1-4.webp",
+      "imageAlt": "A student singing into a microphone at a school concert."
     },
     {
       "id": "u1-5",
@@ -125,7 +133,9 @@
       "pos": "phrase",
       "audio": "audio/u1-5.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u1-5.webp",
+      "imageAlt": "A student telling a funny story while two friends laugh."
     },
     {
       "id": "u1-6",
@@ -142,7 +152,9 @@
       "pos": "phrase",
       "audio": "audio/u1-6.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u1-6.webp",
+      "imageAlt": "A teenager enjoying music through headphones on a bus."
     },
     {
       "id": "u1-7",
@@ -159,7 +171,9 @@
       "pos": "phrase",
       "audio": "audio/u1-7.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u1-7.webp",
+      "imageAlt": "Teenagers hitting a volleyball over a high net on a court."
     },
     {
       "id": "u1-8",
@@ -176,7 +190,9 @@
       "pos": "phrase",
       "audio": "audio/u1-8.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u1-8.webp",
+      "imageAlt": "A teenager putting a cake tin into an oven while wearing oven gloves."
     },
     {
       "id": "u2-1",
@@ -193,7 +209,9 @@
       "pos": "noun",
       "audio": "audio/u2-1.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u2-1.webp",
+      "imageAlt": "An author writing in a notebook with a pen, with books beside her."
     },
     {
       "id": "u2-2",
@@ -210,7 +228,9 @@
       "pos": "noun phrase",
       "audio": "audio/u2-2.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u2-2.webp",
+      "imageAlt": "An open storybook showing explorers on an exciting jungle journey."
     },
     {
       "id": "u2-3",
@@ -227,7 +247,9 @@
       "pos": "noun",
       "audio": "audio/u2-3.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u2-3.webp",
+      "imageAlt": "A professional pilot at the controls inside an aircraft cockpit."
     },
     {
       "id": "u2-4",
@@ -244,7 +266,9 @@
       "pos": "noun",
       "audio": "audio/u2-4.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u2-4.webp",
+      "imageAlt": "An engineer in a safety helmet checking plans at a bridge construction site."
     },
     {
       "id": "u2-5",
@@ -261,7 +285,9 @@
       "pos": "noun phrase",
       "audio": "audio/u2-5.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u2-5.webp",
+      "imageAlt": "An open storybook showing a magical castle, a fairy and an imaginary character."
     },
     {
       "id": "u2-6",
@@ -278,7 +304,9 @@
       "pos": "noun",
       "audio": "audio/u2-6.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u2-6.webp",
+      "imageAlt": "A musician playing an acoustic guitar on a small stage."
     },
     {
       "id": "u2-7",
@@ -295,7 +323,9 @@
       "pos": "noun phrase",
       "audio": "audio/u2-7.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u2-7.webp",
+      "imageAlt": "A traveller using an open guidebook containing a street map and pictures of places to visit."
     },
     {
       "id": "u2-8",
@@ -312,7 +342,9 @@
       "pos": "noun phrase",
       "audio": "audio/u2-8.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u2-8.webp",
+      "imageAlt": "An open book with short groups of verse lines arranged as poems."
     },
     {
       "id": "u3-1",
@@ -329,7 +361,9 @@
       "pos": "adjective",
       "audio": "audio/u3-1.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u3-1.webp",
+      "imageAlt": "A teenager holding his hat as wind blows his hair, clothes and nearby leaves."
     },
     {
       "id": "u3-2",
@@ -346,7 +380,9 @@
       "pos": "adjective",
       "audio": "audio/u3-2.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u3-2.webp",
+      "imageAlt": "A school field in bright sunlight under a clear blue sky, with crisp shadows."
     },
     {
       "id": "u3-3",
@@ -363,7 +399,9 @@
       "pos": "adjective",
       "audio": "audio/u3-3.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u3-3.webp",
+      "imageAlt": "A hillside beneath a sky full of clouds, without rain or ground-level mist."
     },
     {
       "id": "u3-4",
@@ -380,7 +418,9 @@
       "pos": "adjective",
       "audio": "audio/u3-4.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u3-4.webp",
+      "imageAlt": "A teenager with an umbrella and raincoat walking past puddles in falling rain."
     },
     {
       "id": "u3-5",
@@ -397,7 +437,9 @@
       "pos": "adjective",
       "audio": "audio/u3-5.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u3-5.webp",
+      "imageAlt": "A tropical storm with strong wind, heavy rain and distant lightning, viewed from shelter."
     },
     {
       "id": "u3-6",
@@ -414,7 +456,9 @@
       "pos": "adjective",
       "audio": "audio/u3-6.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u3-6.webp",
+      "imageAlt": "A highland road and distant trees fading into thick mist."
     },
     {
       "id": "u3-7",
@@ -431,7 +475,9 @@
       "pos": "noun",
       "audio": "audio/u3-7.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u3-7.webp",
+      "imageAlt": "Floodwater covering a village road and the lower parts of houses and fences."
     },
     {
       "id": "u3-8",
@@ -448,7 +494,9 @@
       "pos": "noun",
       "audio": "audio/u3-8.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u3-8.webp",
+      "imageAlt": "Fresh cracks across a dry town road and nearby buildings after ground movement."
     },
     {
       "id": "u4-1",
@@ -465,7 +513,9 @@
       "pos": "noun",
       "audio": "audio/u4-1.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u4-1.webp",
+      "imageAlt": "A dense tropical forest with many tree trunks, a canopy, ferns and a path."
     },
     {
       "id": "u4-2",
@@ -482,7 +532,9 @@
       "pos": "noun",
       "audio": "audio/u4-2.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u4-2.webp",
+      "imageAlt": "A high steep mountain rising far above the surrounding wooded hills."
     },
     {
       "id": "u4-3",
@@ -499,7 +551,9 @@
       "pos": "noun",
       "audio": "audio/u4-3.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u4-3.webp",
+      "imageAlt": "A long river winding between two banks through a tropical forest."
     },
     {
       "id": "u4-4",
@@ -516,7 +570,9 @@
       "pos": "noun",
       "audio": "audio/u4-4.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u4-4.webp",
+      "imageAlt": "An entire small island with sea surrounding its coastline on every side."
     },
     {
       "id": "u4-5",
@@ -533,7 +589,9 @@
       "pos": "noun",
       "audio": "audio/u4-5.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u4-5.webp",
+      "imageAlt": "A still lake enclosed by green hills, with the far shore visible."
     },
     {
       "id": "u4-6",
@@ -550,7 +608,9 @@
       "pos": "noun",
       "audio": "audio/u4-6.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u4-6.webp",
+      "imageAlt": "A dry desert landscape with large golden sand dunes and very little vegetation."
     },
     {
       "id": "u4-7",
@@ -567,7 +627,9 @@
       "pos": "noun",
       "audio": "audio/u4-7.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u4-7.webp",
+      "imageAlt": "A honeybee with antennae, six legs and transparent wings collecting pollen on a flower."
     },
     {
       "id": "u4-8",
@@ -584,7 +646,9 @@
       "pos": "noun",
       "audio": "audio/u4-8.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u4-8.webp",
+      "imageAlt": "An owl with large forward-facing eyes perched on a branch at dusk."
     },
     {
       "id": "u5-1",
@@ -601,7 +665,9 @@
       "pos": "noun",
       "audio": "audio/u5-1.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u5-1.webp",
+      "imageAlt": "Two cylindrical batteries beside a torch with its battery compartment open."
     },
     {
       "id": "u5-2",
@@ -618,7 +684,9 @@
       "pos": "noun",
       "audio": "audio/u5-2.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u5-2.webp",
+      "imageAlt": "A spherical ringed planet illuminated by sunlight against dark space."
     },
     {
       "id": "u5-3",
@@ -635,7 +703,9 @@
       "pos": "noun",
       "audio": "audio/u5-3.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u5-3.webp",
+      "imageAlt": "A teenager blowing invisible air to make a pinwheel turn."
     },
     {
       "id": "u5-4",
@@ -652,7 +722,9 @@
       "pos": "noun",
       "audio": "audio/u5-4.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u5-4.webp",
+      "imageAlt": "A cylinder and hose filling a balloon with invisible gas, making it expand."
     },
     {
       "id": "u5-5",
@@ -669,7 +741,9 @@
       "pos": "noun",
       "audio": "audio/u5-5.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u5-5.webp",
+      "imageAlt": "Water flowing from a jug into a glass and taking the shape of its container."
     },
     {
       "id": "u5-6",
@@ -686,7 +760,9 @@
       "pos": "noun",
       "audio": "audio/u5-6.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u5-6.webp",
+      "imageAlt": "A student using a thermometer to check how warm water is in a beaker."
     },
     {
       "id": "u5-7",
@@ -703,7 +779,9 @@
       "pos": "noun",
       "audio": "audio/u5-7.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u5-7.webp",
+      "imageAlt": "An apple falling from a tree branch towards the ground."
     },
     {
       "id": "u5-8",
@@ -720,7 +798,9 @@
       "pos": "noun",
       "audio": "audio/u5-8.mp3",
       "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
-      "cefr": "A2-oriented task design; individual word level not certified"
+      "cefr": "A2-oriented task design; individual word level not certified",
+      "image": "media/u5-8.webp",
+      "imageAlt": "Students in goggles and a teacher working at benches in a school science laboratory."
     }
   ]
 }

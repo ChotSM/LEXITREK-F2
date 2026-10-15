@@ -8,7 +8,7 @@
 - Clue X of 6 and a progress bar stay inside the task window. After six completed clues, a summary shows final correct answers, coins and unique words practised, with buttons to stop, continue the island or visit the next topic. An explicit review can finish earlier if no words remain due.
 - Recognition activities rotate through text choice, picture choice where a context scene exists, listening, tap matching and drag-or-tap. Recall and context stages still use typed responses and retain their existing eligibility rules.
 - Listening starts only when the learner presses Play the word. Replay and Use a text clue instead are available. The alternative also works when sound is unavailable.
-- Ten words have original inline SVG context scenes: cook, draw, writer, pilot, engineer, windy, gravity, flood, liquid and gas. Other cards retain the existing emoji or approved local-image fallback. Scenes have accessible descriptions, no external resources and no animation.
+- All 40 words now have detailed, generated editorial images served locally as optimised WebP files. Larger full-scene image panels replace the original geometric figures and emoji clues. Each image has an accessible scene description and is included in the offline pack. See ARTWORK.md and ARTWORK_PROMPTS.json.
 
 ## Learning records and research interpretation
 
