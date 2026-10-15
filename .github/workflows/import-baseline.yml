@@ -1,0 +1,36 @@
+name: Import Form Two development baseline
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/import-baseline.yml
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Fetch development baseline
+        run: |
+          git clone --depth 1 --branch form2-engagement-redesign https://github.com/ChotSM/LexiTrek.git /tmp/lexitrek-source
+          rsync -a --exclude='.git/' --exclude='.github/' --exclude='LexiTrek_GitHub_Source/' /tmp/lexitrek-source/ ./
+          cp /tmp/lexitrek-source/LexiTrek_GitHub_Source/README.md README.md
+      - name: Verify imported application
+        run: |
+          test -f dist/index.html
+          test -f dist/content.json
+          test -f dist/app.js
+          test "$(find dist/audio -name '*.mp3' | wc -l)" -eq 40
+          node --test tests/*.test.mjs
+      - name: Commit imported files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Import Form Two LexiTREK development baseline and audio assets"
+            git push origin HEAD:main
+          fi
