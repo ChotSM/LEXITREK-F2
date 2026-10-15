@@ -36,3 +36,6 @@
 .unit-card:nth-child(5n){border-top:4px solid #4b8bd1}
 @media(prefers-reduced-motion:reduce){.next-move,.next-move::before,.next-move .cta-arrow{animation:none!important;transition:none!important}}
 .reduced-motion .next-move,.reduced-motion .next-move::before,.reduced-motion .next-move .cta-arrow{animation:none!important;transition:none!important}
+
+/* Keep the recommended mission and next action visible sooner on laptops. */
+@media(min-width:721px){main{padding-top:22px}.page-heading{margin-bottom:18px}.page-heading h1{font-size:clamp(28px,2.6vw,40px);margin-bottom:8px}.page-heading .stars-pill{margin-top:12px}.mission-brief{margin-bottom:16px}}
