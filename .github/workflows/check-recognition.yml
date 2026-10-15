@@ -1,0 +1,23 @@
+name: Check recognition interaction formats
+on:
+  push:
+    branches: [recognition-interactions]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: JavaScript syntax
+        run: |
+          node --check dist/app.js
+          node --check dist/engine.js
+      - name: Learning engine and offline regression
+        run: node --test tests/*.test.mjs
+      - name: Assert interactive variants are present
+        run: |
+          grep -q "data-pick" dist/app.js
+          grep -q "matching-zone" dist/app.js
+          grep -q "dragstart" dist/app.js

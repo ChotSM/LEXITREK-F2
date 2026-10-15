@@ -39,3 +39,25 @@
 
 /* Keep the recommended mission and next action visible sooner on laptops. */
 @media(min-width:721px){main{padding-top:22px}.page-heading{margin-bottom:18px}.page-heading h1{font-size:clamp(28px,2.6vw,40px);margin-bottom:8px}.page-heading .stars-pill{margin-top:12px}.mission-brief{margin-bottom:16px}}
+
+/* Recognition interaction formats: same vocabulary scoring across input modes. */
+.interaction-label{font-size:10px;letter-spacing:1.3px;font-weight:800;color:#2b7293;margin:16px 0 5px}
+.interaction-prompt{font-size:12px;color:#547067;line-height:1.5;margin:7px 0 12px}
+.word-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.word-tile{background:#f1f7fe;border:2px solid #b7d5f0;border-radius:13px;min-height:54px;padding:12px;cursor:grab;font-size:13px;font-weight:650;color:#1a486c;transition:background .15s,border-color .15s,transform .15s}
+.word-tile:nth-child(2){background:#f6efff;border-color:#d5bfee;color:#5a397e}
+.word-tile:nth-child(3){background:#fff2e5;border-color:#f4d0a0;color:#865326}
+.word-tile:nth-child(4){background:#eaf9f2;border-color:#a7ddc5;color:#23644d}
+.word-tile.selected{outline:3px solid #215bbd;outline-offset:2px;transform:translateY(-2px)}
+.word-tile.eliminated{opacity:.3;text-decoration:line-through;cursor:default}
+.word-tile.right{background:#e1f9eb;border-color:#399967}
+.word-tile.wrong{background:#fff0e9;border-color:#c7745c}
+.matching-zone{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;padding:17px;border:2px dashed #3b79aa;background:#f0f8ff;border-radius:14px;margin-top:15px;text-align:center;color:#21547d;min-height:88px;font-weight:700}
+.matching-zone small{display:block;font-size:9px;letter-spacing:1.1px;margin-top:4px;color:#557995}
+.matching-zone.filled{border-style:solid;background:#dff3fa}
+.matching-zone.drag-over{background:#c8eef8;border-color:#148f9a;transform:scale(1.01)}
+.matching-zone:disabled{opacity:.75}
+.match-symbol{font-size:28px;color:#2076b1}
+@media(max-width:450px){.word-tiles{gap:7px}.word-tile{font-size:12px;padding:10px;min-height:48px}.matching-zone{min-height:72px}}
+@media(prefers-reduced-motion:reduce){.word-tile,.matching-zone{transition:none!important;transform:none!important}}
+.reduced-motion .word-tile,.reduced-motion .matching-zone{transition:none!important;transform:none!important}
