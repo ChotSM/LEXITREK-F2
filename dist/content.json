@@ -1,0 +1,726 @@
+{
+  "id": "pulse2-form1-pilot",
+  "version": "1.0.0",
+  "status": "provisional",
+  "title": "Pulse 2 aligned • Form 1",
+  "target": "A2 Mid Revised",
+  "units": [
+    {
+      "id": 1,
+      "title": "Everyday adventures",
+      "subtitle": "Leisure and abilities",
+      "icon": "spark",
+      "domain": "Free-time activities and skills"
+    },
+    {
+      "id": 2,
+      "title": "People and stories",
+      "subtitle": "Literature and professions",
+      "icon": "book",
+      "domain": "Books and people at work"
+    },
+    {
+      "id": 3,
+      "title": "Weather watch",
+      "subtitle": "Weather and natural disasters",
+      "icon": "sun",
+      "domain": "Weather and safety"
+    },
+    {
+      "id": 4,
+      "title": "Life on Earth",
+      "subtitle": "Places and wildlife",
+      "icon": "leaf",
+      "domain": "Geography, landscapes and animals"
+    },
+    {
+      "id": 5,
+      "title": "Discovery lab",
+      "subtitle": "Science and classroom science",
+      "icon": "flask",
+      "domain": "Science and discovery"
+    }
+  ],
+  "words": [
+    {
+      "id": "u1-1",
+      "unit": 1,
+      "word": "cook",
+      "meaning": "To prepare food for eating.",
+      "translation": "memasak",
+      "sentences": [
+        "I help my father _____ rice for dinner.",
+        "We _____ vegetables in the kitchen."
+      ],
+      "example": "I can cook a simple meal.",
+      "emoji": "🍳",
+      "pos": "verb",
+      "audio": "audio/u1-1.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u1-2",
+      "unit": 1,
+      "word": "draw",
+      "meaning": "To make a picture with a pencil or pen.",
+      "translation": "melukis",
+      "sentences": [
+        "Please _____ a picture of your house.",
+        "I use a pencil to _____ an animal."
+      ],
+      "example": "I like to draw after school.",
+      "emoji": "✏️",
+      "pos": "verb",
+      "audio": "audio/u1-2.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u1-3",
+      "unit": 1,
+      "word": "dance",
+      "meaning": "To move your body to music.",
+      "translation": "menari",
+      "sentences": [
+        "We _____ when our favourite music plays.",
+        "They like to _____ at the celebration."
+      ],
+      "example": "My friends dance together.",
+      "emoji": "💃",
+      "pos": "verb",
+      "audio": "audio/u1-3.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u1-4",
+      "unit": 1,
+      "word": "sing",
+      "meaning": "To make music with your voice.",
+      "translation": "menyanyi",
+      "sentences": [
+        "We _____ a song at the school concert.",
+        "The children _____ together in the classroom."
+      ],
+      "example": "I can sing this song.",
+      "emoji": "🎤",
+      "pos": "verb",
+      "audio": "audio/u1-4.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u1-5",
+      "unit": 1,
+      "word": "tell jokes",
+      "meaning": "To say funny things to make people laugh.",
+      "translation": "bercerita jenaka",
+      "sentences": [
+        "My friends laugh when I _____.",
+        "I like to _____ to make my brother laugh."
+      ],
+      "example": "I tell jokes to my friends.",
+      "emoji": "😄",
+      "pos": "phrase",
+      "audio": "audio/u1-5.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u1-6",
+      "unit": 1,
+      "word": "listen to music",
+      "meaning": "To pay attention to songs or other musical sounds.",
+      "translation": "mendengar muzik",
+      "sentences": [
+        "I use headphones to _____.",
+        "After school, we _____ on the radio."
+      ],
+      "example": "I listen to music on the bus.",
+      "emoji": "🎧",
+      "pos": "phrase",
+      "audio": "audio/u1-6.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u1-7",
+      "unit": 1,
+      "word": "play volleyball",
+      "meaning": "To take part in a team game using a ball and a high net.",
+      "translation": "bermain bola tampar",
+      "sentences": [
+        "Our teams _____ over a high net.",
+        "We use our hands to hit the ball when we _____."
+      ],
+      "example": "We play volleyball after school.",
+      "emoji": "🏐",
+      "pos": "phrase",
+      "audio": "audio/u1-7.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u1-8",
+      "unit": 1,
+      "word": "bake a cake",
+      "meaning": "To make a sweet food mixture and cook it in an oven.",
+      "translation": "membakar kek",
+      "sentences": [
+        "For her birthday, we will _____.",
+        "I mix flour and eggs before I _____."
+      ],
+      "example": "I can bake a cake with my mother.",
+      "emoji": "🎂",
+      "pos": "phrase",
+      "audio": "audio/u1-8.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u2-1",
+      "unit": 2,
+      "word": "writer",
+      "meaning": "A person who writes books, stories or other texts.",
+      "translation": "penulis",
+      "sentences": [
+        "The _____ wrote a new story for children.",
+        "A _____ puts ideas into words for readers."
+      ],
+      "example": "The writer visits our school.",
+      "emoji": "📖",
+      "pos": "noun",
+      "audio": "audio/u2-1.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u2-2",
+      "unit": 2,
+      "word": "adventure story",
+      "meaning": "A story about exciting journeys or unusual experiences.",
+      "translation": "cerita pengembaraan",
+      "sentences": [
+        "This _____ tells us about an exciting journey.",
+        "We read an _____ about a dangerous trip."
+      ],
+      "example": "I enjoy an adventure story about explorers.",
+      "emoji": "📚",
+      "pos": "noun phrase",
+      "audio": "audio/u2-2.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u2-3",
+      "unit": 2,
+      "word": "pilot",
+      "meaning": "A person who flies an aircraft.",
+      "translation": "juruterbang",
+      "sentences": [
+        "The _____ flies the plane to Kuching.",
+        "A _____ controls an aircraft in the sky."
+      ],
+      "example": "The pilot lands the plane safely.",
+      "emoji": "✈️",
+      "pos": "noun",
+      "audio": "audio/u2-3.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u2-4",
+      "unit": 2,
+      "word": "engineer",
+      "meaning": "A person who designs or builds things such as machines or bridges.",
+      "translation": "jurutera",
+      "sentences": [
+        "The _____ designs a new bridge.",
+        "An _____ helps to build safe machines."
+      ],
+      "example": "The engineer checks the bridge.",
+      "emoji": "⚙️",
+      "pos": "noun",
+      "audio": "audio/u2-4.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u2-5",
+      "unit": 2,
+      "word": "fairy tale",
+      "meaning": "A story that often includes magic and imaginary characters.",
+      "translation": "cerita dongeng",
+      "sentences": [
+        "The _____ has a magic castle and talking animals.",
+        "We read a _____ about a magical world."
+      ],
+      "example": "This fairy tale has a happy ending.",
+      "emoji": "🏰",
+      "pos": "noun phrase",
+      "audio": "audio/u2-5.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u2-6",
+      "unit": 2,
+      "word": "musician",
+      "meaning": "A person who plays music or creates it.",
+      "translation": "pemuzik",
+      "sentences": [
+        "The _____ plays a guitar on stage.",
+        "A _____ practises music every day."
+      ],
+      "example": "My sister wants to be a musician.",
+      "emoji": "🎸",
+      "pos": "noun",
+      "audio": "audio/u2-6.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u2-7",
+      "unit": 2,
+      "word": "travel guide",
+      "meaning": "A book that gives information about places to visit.",
+      "translation": "buku panduan perjalanan",
+      "sentences": [
+        "We use a _____ to choose places to visit.",
+        "The _____ gives visitors information about the city."
+      ],
+      "example": "My travel guide shows places in Sarawak.",
+      "emoji": "🗺️",
+      "pos": "noun phrase",
+      "audio": "audio/u2-7.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u2-8",
+      "unit": 2,
+      "word": "poetry book",
+      "meaning": "A book containing poems.",
+      "translation": "buku puisi",
+      "sentences": [
+        "This _____ contains many short poems.",
+        "I choose a _____ because I enjoy reading poems."
+      ],
+      "example": "There is a poem about rain in my poetry book.",
+      "emoji": "📖",
+      "pos": "noun phrase",
+      "audio": "audio/u2-8.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u3-1",
+      "unit": 3,
+      "word": "windy",
+      "meaning": "With a lot of moving air.",
+      "translation": "berangin",
+      "sentences": [
+        "Hold your hat: it is _____ outside.",
+        "The leaves move quickly on this _____ day."
+      ],
+      "example": "It is windy near the beach.",
+      "emoji": "🍃",
+      "pos": "adjective",
+      "audio": "audio/u3-1.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u3-2",
+      "unit": 3,
+      "word": "sunny",
+      "meaning": "With bright light from the sun.",
+      "translation": "cerah",
+      "sentences": [
+        "There are no clouds on this _____ morning.",
+        "We wear hats on a bright, _____ day."
+      ],
+      "example": "It is sunny today.",
+      "emoji": "☀️",
+      "pos": "adjective",
+      "audio": "audio/u3-2.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u3-3",
+      "unit": 3,
+      "word": "cloudy",
+      "meaning": "With many clouds in the sky.",
+      "translation": "berawan",
+      "sentences": [
+        "We cannot see the sun because it is _____.",
+        "The sky is grey on this _____ afternoon."
+      ],
+      "example": "It is cloudy above the hills.",
+      "emoji": "☁️",
+      "pos": "adjective",
+      "audio": "audio/u3-3.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u3-4",
+      "unit": 3,
+      "word": "rainy",
+      "meaning": "With a lot of rain.",
+      "translation": "hujan",
+      "sentences": [
+        "Take an umbrella on this _____ day.",
+        "Water falls from the sky during the _____ season."
+      ],
+      "example": "I wear a raincoat on rainy days.",
+      "emoji": "🌧️",
+      "pos": "adjective",
+      "audio": "audio/u3-4.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u3-5",
+      "unit": 3,
+      "word": "stormy",
+      "meaning": "With strong wind and usually heavy rain.",
+      "translation": "ribut",
+      "sentences": [
+        "Strong wind and heavy rain make the weather _____.",
+        "We stay inside during this _____ evening."
+      ],
+      "example": "It is too stormy to walk outside.",
+      "emoji": "⛈️",
+      "pos": "adjective",
+      "audio": "audio/u3-5.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u3-6",
+      "unit": 3,
+      "word": "foggy",
+      "meaning": "With thick mist that makes it hard to see.",
+      "translation": "berkabus",
+      "sentences": [
+        "Drivers cannot see far on a _____ road.",
+        "The hills disappear in the mist on this _____ morning."
+      ],
+      "example": "It is foggy in the hills.",
+      "emoji": "🌫️",
+      "pos": "adjective",
+      "audio": "audio/u3-6.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u3-7",
+      "unit": 3,
+      "word": "flood",
+      "meaning": "Water that covers land which is usually dry.",
+      "translation": "banjir",
+      "sentences": [
+        "Heavy rain caused a _____ in the town.",
+        "A _____ covered the road with water."
+      ],
+      "example": "The flood covered the field.",
+      "emoji": "🌊",
+      "pos": "noun",
+      "audio": "audio/u3-7.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u3-8",
+      "unit": 3,
+      "word": "earthquake",
+      "meaning": "A sudden shaking of the ground.",
+      "translation": "gempa bumi",
+      "sentences": [
+        "The ground shook during the _____.",
+        "An _____ can make buildings shake."
+      ],
+      "example": "The earthquake shook the town.",
+      "emoji": "🏚️",
+      "pos": "noun",
+      "audio": "audio/u3-8.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u4-1",
+      "unit": 4,
+      "word": "forest",
+      "meaning": "A large area of land with many trees.",
+      "translation": "hutan",
+      "sentences": [
+        "Many trees grow together in the _____.",
+        "Birds live among the trees in the _____."
+      ],
+      "example": "We walk along a forest path.",
+      "emoji": "🌳",
+      "pos": "noun",
+      "audio": "audio/u4-1.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u4-2",
+      "unit": 4,
+      "word": "mountain",
+      "meaning": "A very high area of land rising above the land around it.",
+      "translation": "gunung",
+      "sentences": [
+        "The climbers walked to the top of the _____.",
+        "The _____ is much higher than the small hills."
+      ],
+      "example": "The mountain is covered in cloud.",
+      "emoji": "🏔️",
+      "pos": "noun",
+      "audio": "audio/u4-2.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u4-3",
+      "unit": 4,
+      "word": "river",
+      "meaning": "A long flow of water across the land.",
+      "translation": "sungai",
+      "sentences": [
+        "The boat moves along the _____.",
+        "The _____ flows from the hills to the sea."
+      ],
+      "example": "A river flows past the village.",
+      "emoji": "🏞️",
+      "pos": "noun",
+      "audio": "audio/u4-3.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u4-4",
+      "unit": 4,
+      "word": "island",
+      "meaning": "An area of land with water all around it.",
+      "translation": "pulau",
+      "sentences": [
+        "We take a boat to an _____ in the sea.",
+        "Water surrounds the _____ on every side."
+      ],
+      "example": "They live on a small island.",
+      "emoji": "🏝️",
+      "pos": "noun",
+      "audio": "audio/u4-4.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u4-5",
+      "unit": 4,
+      "word": "lake",
+      "meaning": "A large area of water surrounded by land.",
+      "translation": "tasik",
+      "sentences": [
+        "We sit beside a _____ surrounded by hills.",
+        "The boat crosses the quiet _____ inside the park."
+      ],
+      "example": "Fish swim in the lake.",
+      "emoji": "💧",
+      "pos": "noun",
+      "audio": "audio/u4-5.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u4-6",
+      "unit": 4,
+      "word": "desert",
+      "meaning": "A very dry area of land with little rain.",
+      "translation": "gurun",
+      "sentences": [
+        "Very little rain falls in the _____.",
+        "Few plants grow in this dry _____."
+      ],
+      "example": "The desert is dry and sandy.",
+      "emoji": "🏜️",
+      "pos": "noun",
+      "audio": "audio/u4-6.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u4-7",
+      "unit": 4,
+      "word": "bee",
+      "meaning": "A small flying insect that visits flowers and can make honey.",
+      "translation": "lebah",
+      "sentences": [
+        "A _____ flies from one flower to another.",
+        "The _____ carries pollen from a flower."
+      ],
+      "example": "A bee visits the yellow flower.",
+      "emoji": "🐝",
+      "pos": "noun",
+      "audio": "audio/u4-7.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u4-8",
+      "unit": 4,
+      "word": "owl",
+      "meaning": "A bird with large eyes that often hunts at night.",
+      "translation": "burung hantu",
+      "sentences": [
+        "An _____ with large eyes watches the dark forest.",
+        "The _____ hunts for food at night."
+      ],
+      "example": "An owl sits in the tree.",
+      "emoji": "🦉",
+      "pos": "noun",
+      "audio": "audio/u4-8.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u5-1",
+      "unit": 5,
+      "word": "battery",
+      "meaning": "An object that stores energy and gives power to a device.",
+      "translation": "bateri",
+      "sentences": [
+        "The torch needs a new _____.",
+        "A _____ gives power to this small device."
+      ],
+      "example": "Put a battery in the torch.",
+      "emoji": "🔋",
+      "pos": "noun",
+      "audio": "audio/u5-1.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u5-2",
+      "unit": 5,
+      "word": "planet",
+      "meaning": "A large round object in space that travels around a star.",
+      "translation": "planet",
+      "sentences": [
+        "Earth is a _____ that moves around the Sun.",
+        "A _____ travels around a star in space."
+      ],
+      "example": "Our planet is Earth.",
+      "emoji": "🪐",
+      "pos": "noun",
+      "audio": "audio/u5-2.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u5-3",
+      "unit": 5,
+      "word": "air",
+      "meaning": "The mixture of gases around us that we breathe.",
+      "translation": "udara",
+      "sentences": [
+        "We breathe _____ through our nose.",
+        "Moving _____ makes the leaves blow."
+      ],
+      "example": "We need clean air to breathe.",
+      "emoji": "💨",
+      "pos": "noun",
+      "audio": "audio/u5-3.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u5-4",
+      "unit": 5,
+      "word": "gas",
+      "meaning": "A substance that spreads out to fill the space around it.",
+      "translation": "gas",
+      "sentences": [
+        "Air is a mixture of different types of _____.",
+        "The _____ spreads to fill its container."
+      ],
+      "example": "We learn about gas in science.",
+      "emoji": "🫧",
+      "pos": "noun",
+      "audio": "audio/u5-4.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u5-5",
+      "unit": 5,
+      "word": "liquid",
+      "meaning": "A substance that flows and takes the shape of its container.",
+      "translation": "cecair",
+      "sentences": [
+        "Water is a _____ that we can pour.",
+        "This _____ flows from the jug into the glass."
+      ],
+      "example": "Milk is a liquid.",
+      "emoji": "🧪",
+      "pos": "noun",
+      "audio": "audio/u5-5.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u5-6",
+      "unit": 5,
+      "word": "temperature",
+      "meaning": "A measure of how hot or cold something is.",
+      "translation": "suhu",
+      "sentences": [
+        "The thermometer measures the _____.",
+        "We check the _____ to know how hot the water is."
+      ],
+      "example": "The temperature is rising.",
+      "emoji": "🌡️",
+      "pos": "noun",
+      "audio": "audio/u5-6.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u5-7",
+      "unit": 5,
+      "word": "gravity",
+      "meaning": "The force that pulls things towards Earth or another large object.",
+      "translation": "graviti",
+      "sentences": [
+        "_____ pulls the falling ball towards the ground.",
+        "Objects fall to Earth because of _____."
+      ],
+      "example": "Gravity pulls the apple down.",
+      "emoji": "🍎",
+      "pos": "noun",
+      "audio": "audio/u5-7.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    },
+    {
+      "id": "u5-8",
+      "unit": 5,
+      "word": "laboratory",
+      "meaning": "A room where people do scientific work and experiments.",
+      "translation": "makmal",
+      "sentences": [
+        "We do our science experiment in the _____.",
+        "Scientists work carefully in the _____."
+      ],
+      "example": "Wear safety glasses in the laboratory.",
+      "emoji": "🔬",
+      "pos": "noun",
+      "audio": "audio/u5-8.mp3",
+      "source": "Form 1 syllabus vocabulary domain; Pulse 2 page verification pending",
+      "cefr": "A2-oriented task design; individual word level not certified"
+    }
+  ]
+}
