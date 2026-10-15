@@ -1,12 +1,14 @@
 # LexiTrek
 
+The interactive voyage revision adds island missions, direct next-clue progression, picture/listening practice and session summaries. See `docs/INTERACTIVE_VOYAGE.md` for the learner flow, scoring treatment and validation commands.
+
 A vocabulary expedition for Malaysian Form One ESL learners. This first working version contains 40 provisional curriculum-aligned cards, original contexts, Malay support, synthesised pronunciation, adaptive practice, and an offline pack. It is a pilot app, not a validated research instrument.
 
 ## Start learning
 
-Open the hosted app, choose a unit, and select **Start exploring**. New words receive an explanation before a recognition task. Ask for support whenever needed. Continue the trail to save a completed step. Learner profiles, practice history, stars, and review schedules remain in this browser's IndexedDB.
+Open the hosted app, choose a unit, and select **Start hunt**. New words receive an explanation before a recognition task. Ask for support whenever needed. Continue the trail to save a completed step. Learner profiles, practice history, coins, and review schedules remain in this browser's IndexedDB.
 
-The word notebook allows deliberate study. My progress distinguishes independent recognition, word recall, and context practice. Unassessed skills display **Not yet assessed**. Game milestones celebrate participation; they do not establish vocabulary mastery.
+My chest allows deliberate study. Voyage progress distinguishes independent recognition, word recall, and context practice. Unassessed skills display **Not yet assessed**. Game milestones celebrate participation; they do not establish vocabulary mastery.
 
 ## Offline learning
 

@@ -62,6 +62,31 @@
 @media(prefers-reduced-motion:reduce){.word-tile,.matching-zone{transition:none!important;transform:none!important}}
 .reduced-motion .word-tile,.reduced-motion .matching-zone{transition:none!important;transform:none!important}
 
+/* Mission flow: clear progress and an explicit stopping point. */
+.clue-progress{display:grid;grid-template-columns:auto 1fr;gap:7px 16px;align-items:center;margin-bottom:14px;font-size:12px;color:#315d70}
+.clue-progress>span{text-align:right;font-size:11px}
+.clue-progress progress{grid-column:1/-1;width:100%;height:7px;accent-color:#168a99;border:0}
+.review-transition{font-size:12px;line-height:1.6;color:#725629;background:#fff7e7;border-radius:10px;padding:10px 13px;margin:0 0 16px}
+.listen-prompt{display:inline-flex;align-items:center;gap:10px;min-height:48px}
+.listen-prompt svg{width:23px;height:23px}
+.audio-status{font-size:12px;line-height:1.5;color:#315d70}
+.task-footer{flex-wrap:wrap;color:#526d78}
+.task-footer>#back-to-map{margin-left:auto}
+.session-summary{padding:25px 29px;text-align:center}
+.summary-chest{display:block;width:74px;margin:0 auto 12px}
+.summary-chest svg{width:100%;height:auto}
+.session-summary h2{font-size:28px;margin:10px 0}
+.session-summary p{font-size:14px;line-height:1.7;color:#526d78}
+.session-summary h3{font-size:15px;margin:22px 0 13px}
+.summary-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:22px 0}
+.summary-stats>div{padding:15px 8px;background:#edf8f5;border-radius:12px}
+.summary-stats strong{display:block;color:#0b6a7d;font-size:25px}
+.summary-stats span{display:block;font-size:11px;line-height:1.5;margin-top:5px;color:#375c6c}
+.summary-words{display:flex;justify-content:center;flex-wrap:wrap;gap:8px}
+.summary-words span{padding:8px 13px;border:1px solid #c6dfdf;border-radius:20px;background:#f4faf9;font-size:13px}
+.summary-actions{justify-content:center}
+@media(max-width:450px){.clue-progress{grid-template-columns:1fr}.clue-progress>span{text-align:left}.task-footer>.button-row{width:100%}.task-footer .button-row>button{flex:1}.summary-actions>button{width:100%}.session-summary{padding:22px 17px}}
+
 /* Treasure voyage theme: vivid map, calm learning surface. */
 :root{--ink:#17364a;--muted:#5f7380;--forest:#08677b;--mint:#eaf7f5;--paper:#f8faf8;--border:#dce9e6;--gold:#e8ad3a;--sky:#cff1f2}
 .sidebar{background:#eff8f5}
@@ -90,6 +115,8 @@
 .clue-visual{display:flex;align-items:center;gap:16px;padding:12px 15px;margin:2px 0 18px;background:linear-gradient(110deg,#e4f8f5,#fff9e7);border:1px solid #c5e5df;border-radius:15px}
 .clue-art{width:94px;height:86px;flex:none;border-radius:13px;background:#fff;display:grid;place-items:center;overflow:hidden}
 .clue-art img{max-width:100%;max-height:100%;object-fit:contain}
+.has-scene .clue-art{width:190px;height:auto;aspect-ratio:240/165}
+.clue-scene{display:block;width:100%;height:auto}
 .clue-emoji{font-size:48px;line-height:1}
 .clue-visual strong{display:block;font-size:13px;color:#155f6f}
 .clue-visual small{display:block;margin-top:4px;color:#587882;font-size:11px;line-height:1.4}
@@ -103,6 +130,9 @@
 @media(max-width:720px){
  .task-content.focused .task-body{padding:19px 17px}
  .clue-art{width:70px;height:70px}
+ .has-scene{flex-wrap:wrap}
+ .has-scene .clue-art{width:min(240px,100%);margin:auto}
+ .has-scene>div:last-child{width:100%;text-align:center}
  .clue-emoji{font-size:39px}
  .clue-visual{gap:10px}
  .treasure-map-card>svg{height:310px}

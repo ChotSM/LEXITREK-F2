@@ -1,4 +1,4 @@
-export const VERSION = '1.0.0';
+export const VERSION = '1.2.0-engagement';
 export const DAY = 86400000;
 export const PHASES = ['learning', 'orientation', 'baseline', 'intervention', 'immediate', 'retention', 'delayed', 'released'];
 export const PAUSED = new Set(['orientation', 'baseline', 'immediate', 'retention', 'delayed']);
