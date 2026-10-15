@@ -61,3 +61,58 @@
 @media(max-width:450px){.word-tiles{gap:7px}.word-tile{font-size:12px;padding:10px;min-height:48px}.matching-zone{min-height:72px}}
 @media(prefers-reduced-motion:reduce){.word-tile,.matching-zone{transition:none!important;transform:none!important}}
 .reduced-motion .word-tile,.reduced-motion .matching-zone{transition:none!important;transform:none!important}
+
+/* Treasure voyage theme: vivid map, calm learning surface. */
+:root{--ink:#17364a;--muted:#5f7380;--forest:#08677b;--mint:#eaf7f5;--paper:#f8faf8;--border:#dce9e6;--gold:#e8ad3a;--sky:#cff1f2}
+.sidebar{background:#eff8f5}
+.nav-button.active{background:#075f76}
+.sidebar-note{background:#eef6ee}
+.sidebar-note .tiny-mountains{display:none}
+.page-heading{margin-bottom:17px}
+.page-heading h1{max-width:620px;letter-spacing:-1.2px}
+.stars-pill .star{font-size:22px}
+.trail-card.treasure-map-card{background:#72cdd9;border-color:#78c1ca;min-height:405px}
+.treasure-map-card>svg{height:405px}
+.treasure-map-card .map-heading{color:#17374b;text-shadow:0 1px 0 #fff6;font-size:20px}
+.treasure-map-card .map-tag{background:#fff9e8;color:#17516b;font-weight:800}
+.treasure-map-card .altitude{background:#fff8e5;padding:9px 12px;border-radius:12px;color:#35606b;font-weight:750}
+.next-card .session-info{margin-bottom:18px}
+.unit-card.active{background:#effaf8;border-color:#178aa0}
+.unit-symbol{font-size:20px;background:#e5f5f0}
+.unit-card .unit-symbol{font-size:21px}
+.next-card .trail-stats strong{color:#12687b}
+.task-content.focused{display:block;min-height:0}
+.task-content.focused .task-body{max-width:680px;margin:auto;padding:24px 29px 20px}
+.task-dialog{width:min(735px,95vw)}
+.task-dialog .dialog-top{padding:15px 25px}
+.task-body h2{font-size:clamp(22px,4vw,30px);margin:7px 0 9px}
+.task-body .definition{font-size:16px;line-height:1.55}
+.clue-visual{display:flex;align-items:center;gap:16px;padding:12px 15px;margin:2px 0 18px;background:linear-gradient(110deg,#e4f8f5,#fff9e7);border:1px solid #c5e5df;border-radius:15px}
+.clue-art{width:94px;height:86px;flex:none;border-radius:13px;background:#fff;display:grid;place-items:center;overflow:hidden}
+.clue-art img{max-width:100%;max-height:100%;object-fit:contain}
+.clue-emoji{font-size:48px;line-height:1}
+.clue-visual strong{display:block;font-size:13px;color:#155f6f}
+.clue-visual small{display:block;margin-top:4px;color:#587882;font-size:11px;line-height:1.4}
+.translation-note{margin:0 0 12px;font-size:12px;color:#376373}
+.translation-note summary{cursor:pointer;font-weight:650}
+.translation-note p{margin:6px 0 0}
+.task-content.focused .context-sentence{margin:13px 0 15px;border-left:3px solid #d9a345;background:#faf8ec}
+.task-content.focused .support-row{padding-top:8px}
+.task-dialog .feedback{border-radius:12px}
+.treasure-map-svg{display:block;width:100%}
+@media(max-width:720px){
+ .task-content.focused .task-body{padding:19px 17px}
+ .clue-art{width:70px;height:70px}
+ .clue-emoji{font-size:39px}
+ .clue-visual{gap:10px}
+ .treasure-map-card>svg{height:310px}
+ .trail-card.treasure-map-card{min-height:310px}
+}
+@media(prefers-reduced-motion:reduce){.treasure-map-svg *, .clue-visual *{animation:none!important}}
+
+/* Treasure chest SVG avatars and short success-only reward. */
+.avatar .treasure-chest-icon,.avatar-choice .treasure-chest-icon{width:25px;height:25px;display:block}
+.chest-reward{display:inline-flex;vertical-align:middle;align-items:center;justify-content:center;background:#fff4d0;border:1px solid #e7ca7a;border-radius:12px;padding:6px;margin-right:10px}
+.chest-reward .treasure-chest-icon{width:41px;height:41px;animation:treasureAppear .48s cubic-bezier(.24,.8,.35,1.25) both}
+@keyframes treasureAppear{from{opacity:0;transform:scale(.65) rotate(-7deg)}to{opacity:1;transform:scale(1) rotate(0)}}
+@media(prefers-reduced-motion:reduce){.chest-reward .treasure-chest-icon{animation:none!important}}

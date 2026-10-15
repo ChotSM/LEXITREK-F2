@@ -1,0 +1,21 @@
+name: Verify treasure voyage changes
+on:
+  push:
+    branches: [feature/treasure-voyage-multimodal]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax and behaviour tests
+        run: |
+          node --check dist/app.js
+          node --check dist/treasure-visuals.js
+          node --test tests/*.test.mjs
