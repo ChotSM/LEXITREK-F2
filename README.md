@@ -1,0 +1,1 @@
+# LEXITREK-F2
