@@ -13,3 +13,5 @@ Each word can optionally include `image: "media/<safe-filename>.svg"` and `image
 
 ## Research guardrails
 40 existing vocabulary cards remain provisional. No EVP/DSKP verification claims are implied by the visual redesign. Neither the independent scoring rules nor the retrieval schedule were altered. Trial learners should test usability, image accuracy, audio availability and focus on the vocabulary task before publication.
+
+- A short success-only treasure chest animation provides visual feedback. Incorrect answers retain non-reward feedback; points continue to come only from the learning engine.

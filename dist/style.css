@@ -109,3 +109,10 @@
  .trail-card.treasure-map-card{min-height:310px}
 }
 @media(prefers-reduced-motion:reduce){.treasure-map-svg *, .clue-visual *{animation:none!important}}
+
+/* Treasure chest SVG avatars and short success-only reward. */
+.avatar .treasure-chest-icon,.avatar-choice .treasure-chest-icon{width:25px;height:25px;display:block}
+.chest-reward{display:inline-flex;vertical-align:middle;align-items:center;justify-content:center;background:#fff4d0;border:1px solid #e7ca7a;border-radius:12px;padding:6px;margin-right:10px}
+.chest-reward .treasure-chest-icon{width:41px;height:41px;animation:treasureAppear .48s cubic-bezier(.24,.8,.35,1.25) both}
+@keyframes treasureAppear{from{opacity:0;transform:scale(.65) rotate(-7deg)}to{opacity:1;transform:scale(1) rotate(0)}}
+@media(prefers-reduced-motion:reduce){.chest-reward .treasure-chest-icon{animation:none!important}}
