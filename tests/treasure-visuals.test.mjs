@@ -6,13 +6,9 @@ test('map constrains out-of-range position',()=>{assert.match(renderTreasureMap(
 test('image fallback draws meaningful word emoji',()=>{const card=renderClueVisual({word:'sing',emoji:'🎤'});assert.match(card,/🎤/);assert.match(card,/Visual clue/);});
 test('only local named image paths are accepted',()=>{const card=renderClueVisual({word:'sing',image:'https://example.com/leak.png',emoji:'🎤'});assert.doesNotMatch(card,/example.com/);assert.match(card,/🎤/);});
 
-test('context scenes describe actions and professions, with no network dependencies',()=>{
-  for(const word of ['cook','draw','writer','pilot','engineer','windy','gravity','flood','liquid','gas']){
-    const w={word};assert.ok(hasClueScene(w));const html=renderClueVisual(w);
-    assert.match(html,/<svg class="clue-scene"/);assert.match(html,/role="img" aria-label="[^"]{30,}"/);
-    assert.doesNotMatch(html,/<script|<image|https?:|src=/);
-  }
-  assert.match(renderClueVisual({word:'writer'}),/write lines of text/);
-  assert.match(renderClueVisual({word:'windy'}),/tree bending/);
-  assert.equal(hasClueScene({word:'sing'}),false);
+test('local artwork replaces primitive figures while retaining custom-pack fallback',()=>{
+  const w={word:'writer',image:'media/u2-1.webp',imageAlt:'An author writing with a pen in a notebook.'};
+  assert.ok(hasClueScene(w));assert.match(renderClueVisual(w),/media\/u2-1.webp/);
+  assert.doesNotMatch(renderClueVisual(w),/<svg|clue-emoji/);
+  assert.equal(hasClueScene({word:'writer'}),false);
 });

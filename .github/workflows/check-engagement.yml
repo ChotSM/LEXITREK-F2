@@ -3,7 +3,7 @@ on:
   pull_request:
     branches: [main]
   push:
-    branches: [improve-interactive-voyage]
+    branches: [improve-interactive-voyage, upgrade-vocabulary-art]
 permissions:
   contents: read
 jobs:

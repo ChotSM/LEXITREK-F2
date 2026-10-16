@@ -34,8 +34,11 @@ try{
     open.onsuccess=()=>{const db=open.result;const r=db.transaction('state').objectStore('state').get('main');r.onsuccess=()=>{db.close();resolve(r.result);};r.onerror=()=>reject(r.error);};open.onerror=()=>reject(open.error);
   }));
   await page.goto(base);await page.locator('#start-learning').waitFor();
+  const imageSizes=await page.evaluate(async()=>{const p=await(await fetch('./content.json')).json();return Promise.all(p.words.map(async w=>{const img=new Image();img.src=w.image;await img.decode();return [img.naturalWidth,img.naturalHeight];}));});
+  assert.equal(imageSizes.length,40);assert.ok(imageSizes.every(([w,h])=>w===768&&h===512));
   await page.locator('#start-learning').click();
-  await page.locator('#task-dialog .clue-scene').waitFor();
+  await page.locator('#task-dialog .vocabulary-art').waitFor();
+  await page.waitForFunction(()=>document.querySelector('.vocabulary-art')?.naturalWidth>=600);
   await page.screenshot({path:path.join(output,'desktop-discovery.png')});
   // Six clues, including a wrong answer and a supported retry. Use the pack's
   // visible clue to identify targets; never inject app task state.
